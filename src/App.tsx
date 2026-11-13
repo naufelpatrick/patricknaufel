@@ -1,3 +1,4 @@
+import BrandLockup from './BrandLockup'
 import { useState } from 'react'
 import SecondaryPage from './SecondaryPage'
 import { ArrowUpRight, ArrowRight, Menu, X, Layers3, Users2, BookOpen, Linkedin, Mail } from 'lucide-react'
@@ -34,7 +35,7 @@ function Home() {
   return <>
     <header className="site-header">
       <div className="container nav">
-        <a href="#inicio" className="brand" onClick={close}>patrick naufel<span>.</span></a>
+        <BrandLockup href="#inicio" className="brand-lockup--header" onClick={close} />
         <nav className={menuOpen ? 'nav-links open' : 'nav-links'} aria-label="Navegação principal">
           <a href="/sobre" onClick={close}>Sobre</a><a href="/projetos" onClick={close}>Projetos</a><a href="/atuacao" onClick={close}>Atuação</a><a href="/conhecimento" onClick={close}>Conhecimento</a>
           <a href="#contato" className="nav-contact" onClick={close}>Contato <ArrowUpRight size={14}/></a>
@@ -66,6 +67,6 @@ function Home() {
       <section id="conhecimento" className="section container knowledge"><div><SectionLabel number="04">CONHECIMENTO EM MOVIMENTO</SectionLabel><h2>Pensar, compartilhar, <em>transformar.</em></h2></div><div className="knowledge-content"><p>Na <strong>Arquitetura do Conhecimento</strong>, exploro ideias sobre design, tecnologia, comportamento e as transformações que moldam nosso trabalho. Compartilho também vivências de sala de aula, pesquisa e conversas no InPodcast.</p><div className="knowledge-links"><a href="https://patricknaufel.substack.com/" target="_blank" rel="noopener noreferrer"><BookOpen size={20}/> Arquitetura do Conhecimento <ArrowUpRight size={18}/></a><a href="https://www.inpodcast.com.br" target="_blank" rel="noopener noreferrer"><Layers3 size={20}/> InPodcast <ArrowUpRight size={18}/></a><a href="https://dashboard-lages.vercel.app" target="_blank" rel="noopener noreferrer"><Users2 size={20}/> Pesquisa sobre maturidade digital <ArrowUpRight size={18}/></a></div><a href="/conhecimento" className="knowledge-page-cta">Conheça minha produção e participações <ArrowUpRight size={18}/></a></div></section>
       <section id="contato" className="contact-section"><div className="container"><SectionLabel number="05">PRÓXIMAS CONVERSAS</SectionLabel><h2>Tem um desafio, uma ideia <em>ou uma oportunidade?</em></h2><p>Vamos conversar sobre projetos, consultorias, mentorias, palestras e oportunidades profissionais.</p><div className="contact-actions"><a className="button button-dark" href="https://www.linkedin.com/in/patricknaufel/" target="_blank" rel="noopener noreferrer">Entre em contato pelo LinkedIn <ArrowUpRight size={19}/></a><a className="button button-email" href="mailto:naufelpatrick@gmail.com">Mande um e-mail <Mail size={19}/></a></div></div></section>
     </main>
-    <footer className="footer"><div className="container footer-inner"><a href="#inicio" className="brand brand-white">patrick naufel<span>.</span></a><span>DESIGN & PRODUCT STRATEGIST</span><div><a href="https://www.linkedin.com/in/patricknaufel/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><Linkedin size={20}/></a><a href="https://www.inpodcast.com.br" target="_blank" rel="noopener noreferrer" aria-label="InPodcast"><ArrowUpRight size={20}/></a><a href="mailto:naufelpatrick@gmail.com" aria-label="Enviar e-mail"><Mail size={20}/></a></div><a href="#inicio" className="back-top">Voltar ao topo <ArrowRight size={15}/></a></div></footer>
+    <footer className="footer"><div className="container footer-inner"><BrandLockup href="#inicio" className="brand-lockup--footer" /><span>DESIGN & PRODUCT STRATEGIST</span><div><a href="https://www.linkedin.com/in/patricknaufel/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><Linkedin size={20}/></a><a href="https://www.inpodcast.com.br" target="_blank" rel="noopener noreferrer" aria-label="InPodcast"><ArrowUpRight size={20}/></a><a href="mailto:naufelpatrick@gmail.com" aria-label="Enviar e-mail"><Mail size={20}/></a></div><a href="#inicio" className="back-top">Voltar ao topo <ArrowRight size={15}/></a></div></footer>
   </>
 }
