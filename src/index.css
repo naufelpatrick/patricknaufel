@@ -115,8 +115,8 @@
 }
 .brand-lockup__rule{width:25px;height:3px;flex:none;background:var(--brand-accent)}
 .brand-lockup--header{min-width:225px}
-.brand-lockup--footer .brand-lockup__name{font-size:22px}
-.brand-lockup--footer .brand-lockup__descriptor{font-size:8px}
+.brand-lockup--footer .brand-lockup__name{font-size:25px}
+.brand-lockup--footer .brand-lockup__descriptor{font-size:9px}
 .site-header .brand-lockup,.phase-header .brand-lockup,.footer .brand-lockup,.phase-footer .brand-lockup{color:#f1eee7}
 .phase-header .brand-lockup__name,.phase-footer .brand-lockup__name{color:#f1eee7}
 .footer-inner>.brand-lockup,.phase-footer .phase-inner>.brand-lockup{max-width:270px}
@@ -134,3 +134,9 @@
 .hero{background-color:var(--brand-charcoal)}
 .hero .eyebrow .slash{color:var(--brand-orange)}
 .hero .text-link:hover{border-color:var(--brand-orange);opacity:1}
+
+/* Keep the exact same personal signature in header and footer */
+.brand-lockup--header .brand-lockup__name,.brand-lockup--footer .brand-lockup__name{font-family:Manrope,sans-serif;font-size:25px;font-weight:800;letter-spacing:-.065em;line-height:1;color:#F1EEE7}
+.brand-lockup--header .brand-lockup__descriptor,.brand-lockup--footer .brand-lockup__descriptor{display:flex;align-items:center;min-height:4px;font-size:9px;line-height:1.2}
+.brand-lockup--header .brand-lockup__rule,.brand-lockup--footer .brand-lockup__rule{width:25px;height:3px;background:#FF4D00}
+@media(max-width:760px){.brand-lockup--header .brand-lockup__name,.brand-lockup--footer .brand-lockup__name{font-size:22px}.brand-lockup--header .brand-lockup__rule,.brand-lockup--footer .brand-lockup__rule{width:19px;height:2px}}
