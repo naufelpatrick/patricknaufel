@@ -8,7 +8,7 @@
 .phase-header nav{display:flex;gap:30px;font-size:13px;font-weight:700}.phase-header nav a:hover{color:#FF8757}
 .phase-footer{background:#101010;color:#fff}
 .phase-footer .phase-inner{padding-block:40px;display:flex;align-items:center;justify-content:space-between;gap:20px}
-.phase-footer strong{font-size:22px;letter-spacing:-.05em}.phase-footer span{font:11px 'IBM Plex Mono',monospace;color:#CEC6C0}
+.phase-footer .phase-inner>span{font:11px 'IBM Plex Mono',monospace;color:#CEC6C0}
 .phase-hero{background:radial-gradient(ellipse at 80% 12%,rgba(255,77,0,.14) 0%,transparent 52%),#101010;color:#fff;padding:55px 0 110px}
 .phase-back{display:inline-flex;align-items:center;gap:10px;font-size:13px;color:#D4CCC5;margin-bottom:88px}
 .phase-eyebrow{display:block;font:12px 'IBM Plex Mono',monospace;letter-spacing:.07em;color:#88847e}
@@ -66,7 +66,7 @@
   .phase-case{grid-template-columns:1fr;padding:15px 15px 30px;gap:25px}
   .phase-case>div:last-child{padding-inline:10px}
   .phase-footer .phase-inner{flex-wrap:wrap;gap:14px}
-  .phase-footer .phase-inner span{width:100%;order:3}
+  .phase-footer .phase-inner>span{width:100%;order:3}
 }
 
 .phase-career-intro{font-size:18px;line-height:1.8;color:#77766f;max-width:780px;margin:24px 0 0}
