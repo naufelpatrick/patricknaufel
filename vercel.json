@@ -11,6 +11,14 @@
     {
       "source": "/projetos/:slug",
       "destination": "/"
+    },
+    {
+      "source": "/atuacao",
+      "destination": "/"
+    },
+    {
+      "source": "/atuacao/:slug",
+      "destination": "/"
     }
   ]
 }
