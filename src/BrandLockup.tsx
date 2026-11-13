@@ -11,9 +11,9 @@ type BrandLockupProps = {
  */
 export default function BrandLockup({ href, className = '', onClick }: BrandLockupProps) {
   return (
-    <a href={href} className={`brand-lockup ${className}`.trim()} onClick={onClick} aria-label="Patrick Naufel — Arquitetura do Conhecimento">
+    <a href={href} className={`brand-lockup ${className}`.trim()} onClick={onClick} aria-label="Patrick Naufel">
       <span className="brand-lockup__name">Patrick Naufel</span>
-      <span className="brand-lockup__descriptor"><span className="brand-lockup__rule" aria-hidden="true" />Arquitetura do Conhecimento</span>
+      <span className="brand-lockup__descriptor" aria-hidden="true"><span className="brand-lockup__rule" /></span>
     </a>
   )
 }
