@@ -96,3 +96,33 @@
 /* Entry to knowledge hub on the homepage */
 .knowledge-page-cta{display:inline-flex;align-items:center;gap:14px;font-size:14px;font-weight:800;margin-top:24px;border-bottom:1px solid #777;padding-bottom:9px;transition:color .2s}
 .knowledge-page-cta:hover{color:#7665f5}
+
+/* Identidade visual pessoal — assinatura horizontal tipográfica */
+.brand-lockup{
+  --brand-accent:#FF4D00;
+  display:inline-flex;align-items:flex-start;justify-content:center;flex-direction:column;
+  gap:5px;flex:none;width:max-content;max-width:100%;
+  color:inherit;text-decoration:none;white-space:nowrap
+}
+.brand-lockup__name{
+  display:block;font-family:Manrope,sans-serif;font-size:25px;font-weight:800;
+  line-height:1;letter-spacing:-.065em;text-transform:none
+}
+.brand-lockup__descriptor{
+  display:flex;align-items:center;gap:8px;color:#d4d0ce;
+  font-family:'IBM Plex Mono',monospace;font-size:9px;font-weight:500;
+  line-height:1.2;letter-spacing:.065em;text-transform:uppercase
+}
+.brand-lockup__rule{width:25px;height:3px;flex:none;background:var(--brand-accent)}
+.brand-lockup--header{min-width:225px}
+.brand-lockup--footer .brand-lockup__name{font-size:22px}
+.brand-lockup--footer .brand-lockup__descriptor{font-size:8px}
+.site-header .brand-lockup,.phase-header .brand-lockup,.footer .brand-lockup,.phase-footer .brand-lockup{color:#f1eee7}
+.phase-header .brand-lockup__name,.phase-footer .brand-lockup__name{color:#f1eee7}
+.footer-inner>.brand-lockup,.phase-footer .phase-inner>.brand-lockup{max-width:270px}
+@media(max-width:760px){
+ .brand-lockup--header{min-width:0}
+ .brand-lockup__name{font-size:22px}
+ .brand-lockup__descriptor{font-size:8px;letter-spacing:.045em;gap:6px}
+ .brand-lockup__rule{width:19px;height:2px}
+}
