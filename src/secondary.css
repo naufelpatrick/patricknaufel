@@ -8,14 +8,14 @@
 .phase-header nav{display:flex;gap:30px;font-size:13px;font-weight:700}.phase-header nav a:hover{color:#FF8757}
 .phase-footer{background:#101010;color:#fff}
 .phase-footer .phase-inner{padding-block:40px;display:flex;align-items:center;justify-content:space-between;gap:20px}
-.phase-footer strong{font-size:22px;letter-spacing:-.05em}.phase-footer span{font:11px 'IBM Plex Mono',monospace;color:#c0bdca}
-.phase-hero{background:radial-gradient(ellipse at 80% 12%,#382014 0%,transparent 52%),#101010;color:#fff;padding:55px 0 110px}
-.phase-back{display:inline-flex;align-items:center;gap:10px;font-size:13px;color:#cbc9d3;margin-bottom:88px}
+.phase-footer strong{font-size:22px;letter-spacing:-.05em}.phase-footer span{font:11px 'IBM Plex Mono',monospace;color:#CEC6C0}
+.phase-hero{background:radial-gradient(ellipse at 80% 12%,rgba(255,77,0,.14) 0%,transparent 52%),#101010;color:#fff;padding:55px 0 110px}
+.phase-back{display:inline-flex;align-items:center;gap:10px;font-size:13px;color:#D4CCC5;margin-bottom:88px}
 .phase-eyebrow{display:block;font:12px 'IBM Plex Mono',monospace;letter-spacing:.07em;color:#88847e}
-.phase-hero .phase-eyebrow,.phase-ink .phase-eyebrow{color:#E3D9D3}
+.phase-hero .phase-eyebrow,.phase-ink .phase-eyebrow{color:#E7D9D0}
 .phase-hero h1{max-width:1140px;font-size:clamp(55px,6.5vw,94px);line-height:1.08;letter-spacing:-.075em;font-weight:800;margin:25px 0}
 .phase-hero h1 em,.phase-section h2 em{font-style:normal;color:#C93D00}
-.phase-lead{font-size:clamp(18px,2vw,23px);max-width:840px;color:#E7DEDA;line-height:1.65;margin:30px 0 0}
+.phase-lead{font-size:clamp(18px,2vw,23px);max-width:840px;color:#E7DDD6;line-height:1.65;margin:30px 0 0}
 .phase-section{padding:110px 0;background:#f7f6f2}
 .phase-soft{background:#eae9e3}
 .phase-split{display:grid;grid-template-columns:.9fr 1.1fr;gap:100px}
@@ -35,23 +35,23 @@
 .phase-ink{background:#1B1918;color:#fff}
 .phase-ink h2{max-width:940px}
 .phase-ink h2 em{color:#FF713B}
-.phase-ink p{color:#D5CBC5;font-size:18px;line-height:1.8;max-width:800px;margin:26px 0}
+.phase-ink p{color:#D9CEC7;font-size:18px;line-height:1.8;max-width:800px;margin:26px 0}
 .phase-actions{display:flex;gap:16px;flex-wrap:wrap;margin-top:35px}
 .phase-button,.phase-outline{display:inline-flex;align-items:center;justify-content:space-between;gap:20px;padding:18px 24px;border-radius:10px;font-size:14px;font-weight:750}
-.phase-button{background:#FF4D00;color:#fff}.phase-outline{border:1px solid #97939f;color:#fff}
-.phase-footnote{display:block;color:#a7a4ac;font-size:12px;margin-top:34px}
+.phase-button{background:#FF4D00;color:#fff}.phase-outline{border:1px solid #B3ABA4;color:#fff}
+.phase-footnote{display:block;color:#B7AFA8;font-size:12px;margin-top:34px}
 .phase-case-list{display:grid;gap:25px}
 .phase-case{display:grid;grid-template-columns:35% 1fr;gap:55px;align-items:center;background:#fff;padding:18px 50px 18px 18px;transition:transform .2s}
 .phase-case:hover{transform:translateY(-3px)}
 .phase-case-art{aspect-ratio:1.22;background:#dadad3;position:relative;display:grid;place-items:center;overflow:hidden}
-.phase-case:nth-child(2) .phase-case-art{background:#24232a;color:#fff}
+.phase-case:nth-child(2) .phase-case-art{background:#24201D;color:#fff}
 .phase-case:nth-child(3) .phase-case-art{background:#bdbcb4}
 .phase-case-art>span{position:absolute;top:20px;left:21px;font:11px 'IBM Plex Mono',monospace}
 .phase-case-art strong{font-size:clamp(75px,11vw,152px);letter-spacing:-.12em}
 .phase-case h2{font-size:clamp(30px,4vw,52px);margin:18px 0}
 .phase-case p{font-size:18px;color:#73716c;line-height:1.7;max-width:620px}
 .phase-inline{display:inline-flex;align-items:center;gap:12px;font-size:14px;font-weight:800;margin-top:18px}
-.phase-disclaimer{font-size:14px!important;color:#8b8982!important;border-left:2px solid #C93D00;padding-left:16px}
+.phase-disclaimer{font-size:14px!important;color:#7A7770!important;border-left:2px solid #C93D00;padding-left:16px}
 @media(max-width:800px){
   .phase-inner{width:calc(100% - 42px)}
   .phase-header .phase-inner{min-height:74px;align-items:flex-start;flex-direction:column;justify-content:center;padding-block:14px}
@@ -92,7 +92,7 @@
 .knowledge-feature-grid{display:grid;grid-template-columns:1fr .88fr;align-items:center;gap:85px}
 .knowledge-feature-intro h2{font-size:clamp(40px,4.5vw,64px)}
 .knowledge-feature-intro>p{font-size:17px;line-height:1.9;color:#74736e;max-width:590px;margin:22px 0}
-.knowledge-cover{display:flex;flex-direction:column;justify-content:space-between;min-height:485px;padding:42px;background:radial-gradient(circle at 88% 70%,#A33713,transparent 40%),linear-gradient(160deg,#27201C,#161311);color:#FFF5EE}
+.knowledge-cover{display:flex;flex-direction:column;justify-content:space-between;min-height:485px;padding:42px;background:radial-gradient(circle at 88% 70%,#8A3414,transparent 40%),linear-gradient(160deg,#27201C,#161311);color:#FFF5EE}
 .knowledge-cover>span{font:11px 'IBM Plex Mono',monospace;letter-spacing:.09em;color:#F3D0BE}
 .knowledge-cover strong{font-size:clamp(38px,4vw,63px);letter-spacing:-.08em;line-height:1.1}
 .knowledge-cover strong em{font-style:normal;color:#FF8757}
@@ -135,3 +135,19 @@
 .phase-button:hover{background:#E14500}
 .phase-header nav a:focus-visible,.phase-button:focus-visible,.phase-inline:focus-visible{outline:2px solid #FF4D00;outline-offset:4px}
 .phase-ink .phase-eyebrow{color:#FF8757}
+
+/* Final single-source brand correction for every inner route */
+.phase-header,.phase-footer{background:#101010}
+.phase-hero{background:radial-gradient(ellipse at 82% 14%,rgba(255,77,0,.15),transparent 55%),#101010}
+.phase-hero h1 em,.phase-ink h2 em{color:#FF713B}
+.phase-hero .phase-eyebrow,.phase-ink .phase-eyebrow{color:#F0C5B0}
+.phase-header nav a:hover,.phase-inline:hover{color:#C93D00}
+.phase-ink .phase-inline:hover,.phase-header nav a:hover{color:#FF8757}
+.phase-stack svg,.knowledge-topic-mark,.knowledge-article-top,.services-catalog-top{color:#C93D00}
+.phase-button{background:#FF4D00;color:#fff}
+.phase-button:hover{background:#DE4300}
+.phase-disclaimer,.knowledge-caveat{border-left-color:#C93D00}
+.service-detail-grid li::before,.knowledge-part-icon{color:#C93D00}
+.knowledge-article:hover{border-color:#FF4D00}
+.knowledge-cover{background:radial-gradient(circle at 88% 70%,rgba(255,77,0,.35),transparent 45%),linear-gradient(160deg,#25201C,#101010)}
+.knowledge-cover strong em{color:#FF713B}
