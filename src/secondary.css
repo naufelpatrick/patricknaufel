@@ -151,3 +151,7 @@
 .knowledge-article:hover{border-color:#FF4D00}
 .knowledge-cover{background:radial-gradient(circle at 88% 70%,rgba(255,77,0,.35),transparent 45%),linear-gradient(160deg,#25201C,#101010)}
 .knowledge-cover strong em{color:#FF713B}
+
+/* Portfolio bridge: strategic case studies + complementary visual archive */
+.portfolio-behance-link{display:inline-flex;align-items:center;gap:12px;margin-top:32px;padding-bottom:8px;border-bottom:2px solid #FF4D00;color:#FFF7F0;font-size:15px;font-weight:750}
+.portfolio-behance-link:hover{color:#FF8757}
