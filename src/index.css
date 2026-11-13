@@ -92,3 +92,7 @@
 .phase-main .contact-section{background:#e9e8e2}
 .phase-main .contact-section .phase-eyebrow{color:#77766f}
 @media(max-width:600px){.contact-actions{align-items:stretch;flex-direction:column}.contact-actions .button{width:100%}}
+
+/* Entry to knowledge hub on the homepage */
+.knowledge-page-cta{display:inline-flex;align-items:center;gap:14px;font-size:14px;font-weight:800;margin-top:24px;border-bottom:1px solid #777;padding-bottom:9px;transition:color .2s}
+.knowledge-page-cta:hover{color:#7665f5}
