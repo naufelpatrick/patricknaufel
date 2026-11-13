@@ -43,3 +43,8 @@
 .ticker{background:#111116;border-top:1px solid rgba(255,255,255,.1)}
 @media(max-width:1100px){.hero{padding-inline:32px}.hero-copy{width:60%}.hero h1{font-size:clamp(52px,6.5vw,76px)}.portrait{width:66%}}
 @media(max-width:760px){.site-header{background:#101015}.nav-links{background:#101015;border-bottom-color:#333}.hero{padding:70px 20px 60px;min-height:790px;display:flex;flex-direction:column;justify-content:flex-end}.hero-copy{width:100%;padding-top:240px}.hero h1{font-size:clamp(45px,11vw,70px);margin:23px 0 22px}.hero-copy>p{font-size:16px;line-height:1.6}.portrait{inset:0 0 auto 0;width:100%;height:560px;max-height:none;aspect-ratio:auto}.portrait img{object-position:50% 15%;object-fit:cover}.portrait:before{background:linear-gradient(0deg,#101015 0%,rgba(16,16,21,.92) 20%,rgba(16,16,21,.15) 65%,rgba(16,16,21,.08) 100%),linear-gradient(90deg,rgba(16,16,21,.18),transparent)}.hero:before{z-index:0;background:linear-gradient(0deg,#101015,transparent 80%)}.hero:after{font-size:340px;right:0;top:55px}.hero-mini{margin-top:37px;gap:13px}.hero-actions{gap:12px}.hero .button-dark,.hero .text-link{padding:15px 17px;border-radius:12px;min-height:48px}.hero .eyebrow{font-size:10px;letter-spacing:.1em}.ticker-items{color:#f9f8f5}}
+
+/* Identidade pessoal: retrato integrado sem monograma ou logotipo no fundo. */
+.hero:after{content:none!important;display:none!important}
+.portrait img{object-position:50% 35%;filter:saturate(.96) contrast(1.03)}
+@media(max-width:760px){.hero:after{content:none!important;display:none!important}.portrait img{object-position:50% 20%}}
