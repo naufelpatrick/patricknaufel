@@ -17,7 +17,7 @@ Importe este repositório na Vercel. Framework preset: **Vite**; build: `npm run
 
 ## Imagem de capa
 
-Coloque a versão final aprovada do retrato em `public/patrick-hero.jpg`. Até esse arquivo ser adicionado, a hero usa a foto de perfil pública do GitHub como fallback temporário. A imagem enviada na conversa não é automaticamente publicada no repositório.
+A fotografia integrada e sem logotipo está incluída em `public/patrick-hero.webp` e é carregada diretamente pela homepage.
 
 ## Conteúdo
 
