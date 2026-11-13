@@ -15,7 +15,7 @@ const services = [
 function Portrait() {
   const [loaded, setLoaded] = useState(true)
   return <div className="portrait" aria-label="Retrato de Patrick Naufel">
-    {loaded && <img src="/patrick-hero.webp" alt="Patrick Naufel, retrato com camiseta preta" loading="eager" onError={() => setLoaded(false)} />}
+    {loaded && <img src="/patrick-hero-cutout.webp" alt="Patrick Naufel, retrato com camiseta preta" loading="eager" onError={() => setLoaded(false)} />}
     <div className="portrait-label"><span>PATRICK NAUFEL</span><span>DESIGN & PRODUCT STRATEGIST</span></div>
   </div>
 }
