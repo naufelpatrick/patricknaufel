@@ -19,6 +19,10 @@
     {
       "source": "/atuacao/:slug",
       "destination": "/"
+    },
+    {
+      "source": "/conhecimento",
+      "destination": "/"
     }
   ]
 }
