@@ -13,10 +13,10 @@ const services = [
 ]
 
 function Portrait() {
-  const [fallback, setFallback] = useState(false)
+  const [loaded, setLoaded] = useState(true)
   return <div className="portrait" aria-label="Retrato de Patrick Naufel">
-    <img src={fallback ? 'https://avatars.githubusercontent.com/u/52705137?v=4' : '/patrick-hero.jpg'} alt="Patrick Naufel" loading="eager" onError={() => setFallback(true)} />
-    <div className="portrait-label"><span>DESIGN & PRODUCT</span><span>STRATEGIST / 2026</span></div>
+    {loaded && <img src="/patrick-hero.jpg" alt="Patrick Naufel, retrato com camiseta preta" loading="eager" onError={() => setLoaded(false)} />}
+    <div className="portrait-label"><span>PATRICK NAUFEL</span><span>DESIGN & PRODUCT STRATEGIST</span></div>
   </div>
 }
 function SectionLabel({ number, children }: { number: string; children: React.ReactNode }) {
@@ -39,10 +39,10 @@ export default function App() {
     <main>
       <section id="inicio" className="hero container">
         <div className="hero-copy">
-          <SectionLabel number="PORTFÓLIO">DESIGN / PRODUTO / ESTRATÉGIA</SectionLabel>
-          <h1>Conecto pessoas, negócios e tecnologia <em>pelo design.</em></h1>
-          <p>Sou Patrick Naufel, <strong>Design & Product Strategist</strong>, professor, pesquisador e mentor. Transformo desafios complexos em oportunidades por meio da experiência, da visão sistêmica e do conhecimento.</p>
-          <div className="hero-actions"><a className="button button-dark" href="#projetos">Conheça meu trabalho <ArrowUpRight size={18}/></a><a className="text-link" href="#contato">Vamos conversar <ArrowUpRight size={17}/></a></div>
+          <SectionLabel number="PATRICK NAUFEL">DESIGN / PRODUTO / ESTRATÉGIA</SectionLabel>
+          <h1>Design, Produto <br/>e Pessoas <em>—</em></h1>
+          <p>Transformo problemas complexos em soluções que combinam experiência, estratégia e impacto real para pessoas, produtos e organizações.</p>
+          <div className="hero-actions"><a className="button button-dark" href="#projetos">Conheça meus projetos <ArrowUpRight size={18}/></a><a className="text-link" href="#sobre">Sobre mim <ArrowUpRight size={17}/></a></div>
           <div className="hero-mini"><span>UX & RESEARCH</span><span>PRODUCT STRATEGY</span><span>DESIGN LEADERSHIP</span></div>
         </div>
         <Portrait/>
