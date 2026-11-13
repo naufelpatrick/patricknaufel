@@ -83,3 +83,12 @@
   .ticker-items{color:#f9f8f5}
 }
 @media(max-width:400px){.hero{padding-top:290px}.portrait{width:104vw;right:-25px}}
+
+/* Unified contact section across homepage and internal pages */
+.contact-actions{display:flex;align-items:center;flex-wrap:wrap;gap:16px;margin-top:30px}
+.contact-actions .button{display:inline-flex;align-items:center;justify-content:space-between;gap:18px;min-height:56px}
+.contact-actions .button-email{background:transparent;color:#1b1b1b;border:1px solid #272727;border-radius:4px;padding:0 24px;font-weight:750;transition:background .2s,color .2s}
+.contact-actions .button-email:hover{background:#202020;color:#fff}
+.phase-main .contact-section{background:#e9e8e2}
+.phase-main .contact-section .phase-eyebrow{color:#77766f}
+@media(max-width:600px){.contact-actions{align-items:stretch;flex-direction:column}.contact-actions .button{width:100%}}
