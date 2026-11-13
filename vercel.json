@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/sobre",
+      "destination": "/"
+    },
+    {
+      "source": "/projetos",
+      "destination": "/"
+    },
+    {
+      "source": "/projetos/:slug",
+      "destination": "/"
+    }
+  ]
+}
