@@ -68,3 +68,5 @@
   .phase-footer .phase-inner{flex-wrap:wrap;gap:14px}
   .phase-footer .phase-inner span{width:100%;order:3}
 }
+
+.phase-career-intro{font-size:18px;line-height:1.8;color:#77766f;max-width:780px;margin:24px 0 0}
