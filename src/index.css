@@ -156,3 +156,16 @@
 .project-art:has(.project-product-image) .art-arrow{z-index:2;bottom:0;right:0;padding:20px;box-sizing:content-box;background:radial-gradient(ellipse at bottom right,rgba(0,0,0,.6),transparent 76%);color:#fff}
 .project-art .project-symbol-fallback{display:none;color:#fff}
 .project-art .project-symbol-fallback.show{display:block}
+
+/* Brand-owned product logos on neutral dark cards; no cropping */
+.project-art:has(.project-product-image){background:#101010!important;color:#fff}
+.project-art .project-product-image{
+  display:block;position:absolute;top:50%;left:50%;right:auto;bottom:auto;inset:auto;
+  width:calc(100% - 96px);height:calc(100% - 132px);
+  max-width:540px;object-fit:contain;object-position:center;
+  transform:translate(-50%,-50%);filter:none;
+}
+.project-art:hover .project-product-image{transform:translate(-50%,-50%) scale(1.025)}
+.project-art:has(.project-product-image) .art-top{background:none;padding:22px;top:0;left:0;right:0}
+.project-art:has(.project-product-image) .art-arrow{background:none;padding:20px;bottom:0;right:0}
+@media(max-width:760px){.project-art .project-product-image{width:calc(100% - 72px);height:calc(100% - 120px)}}
