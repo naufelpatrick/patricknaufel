@@ -4,8 +4,8 @@ import SecondaryPage from './SecondaryPage'
 import { ArrowUpRight, ArrowRight, Menu, X, Layers3, Users2, BookOpen, Linkedin, Mail } from 'lucide-react'
 
 const projects = [
-  { num: '01', tag: 'DESENVOLVIMENTO PROFISSIONAL', name: 'Raio X do Designer', text: 'Uma experiência de autoconhecimento para designers identificarem e desenvolverem suas competências comportamentais.', url: 'https://www.raioxdodesigner.com', symbol: 'RX', variant: 'light', image: 'https://www.raioxdodesigner.com/raio-x-social-card-v3.jpg' },
-  { num: '02', tag: 'EDUCAÇÃO + TECNOLOGIA', name: 'PraxIA', text: 'Uma iniciativa para desenvolver a fluência digital docente e explorar o uso crítico e intencional da inteligência artificial.', url: 'https://radarpraxia.com', symbol: 'IA', variant: 'dark', image: 'https://www.radarpraxia.com/social-graph-praxia.png' },
+  { num: '01', tag: 'DESENVOLVIMENTO PROFISSIONAL', name: 'Raio X do Designer', text: 'Uma experiência de autoconhecimento para designers identificarem e desenvolverem suas competências comportamentais.', url: 'https://www.raioxdodesigner.com', symbol: 'RX', variant: 'light', image: 'https://raw.githubusercontent.com/naufelpatrick/raio-x-soft-skills-mvp/main/public/raio-x-social-card-v3.jpg' },
+  { num: '02', tag: 'EDUCAÇÃO + TECNOLOGIA', name: 'PraxIA', text: 'Uma iniciativa para desenvolver a fluência digital docente e explorar o uso crítico e intencional da inteligência artificial.', url: 'https://radarpraxia.com', symbol: 'IA', variant: 'dark', image: 'https://raw.githubusercontent.com/naufelpatrick/radar-docente/main/public/social-graph-praxia.png' },
   { num: '03', tag: 'UX + VISÃO ESTRATÉGICA', name: 'Fóton UX/UI Assessment', text: 'Diagnóstico estratégico de UX/UI voltado a compreender oportunidades de evolução em equipes e produtos.', url: '#contato', symbol: 'UX', variant: 'soft', image: null },
 ]
 const services = [
