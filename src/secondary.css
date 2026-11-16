@@ -163,3 +163,14 @@
 .phase-case-art:has(.phase-case-image)>span{z-index:2;top:0;left:0;right:0;padding:20px;background:linear-gradient(to bottom,rgba(0,0,0,.7),transparent);color:#fff}
 .phase-case-symbol-fallback{display:none}
 .phase-case-symbol-fallback.show{display:block}
+
+/* Same official logo treatment throughout the portfolio */
+.phase-case-art:has(.phase-case-image){background:#101010!important;color:#fff}
+.phase-case-art .phase-case-image{
+  position:absolute;top:50%;left:50%;right:auto;bottom:auto;inset:auto;
+  width:calc(100% - 100px);height:calc(100% - 125px);
+  max-width:570px;object-fit:contain;object-position:center;
+  transform:translate(-50%,-50%);filter:none
+}
+.phase-case:hover .phase-case-image{transform:translate(-50%,-50%) scale(1.025)}
+.phase-case-art:has(.phase-case-image)>span{background:none;padding:20px;top:0;left:0;right:0}
