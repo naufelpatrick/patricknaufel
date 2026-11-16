@@ -85,7 +85,12 @@
 .service-detail-grid li{font-size:17px;line-height:1.65;border-top:1px solid #c5c4bd;padding:20px 0 20px 28px;position:relative}
 .service-detail-grid li::before{content:'↗';position:absolute;left:0;color:#C93D00}
 .services-section a.service-row{color:inherit;text-decoration:none}
-.services-section a.service-row:hover{background:#ebeae4}
+.services-section a.service-row{transition:background-color .2s ease,box-shadow .2s ease}
+.services-section a.service-row:hover,.services-section a.service-row:focus-visible{background:#29231f;color:#f7f6f2;box-shadow:inset 4px 0 0 #FF4D00}
+.services-section a.service-row:hover h3,.services-section a.service-row:focus-visible h3{color:#fff}
+.services-section a.service-row:hover p,.services-section a.service-row:focus-visible p{color:#ddd4ce}
+.services-section a.service-row:hover .service-number,.services-section a.service-row:focus-visible .service-number,.services-section a.service-row:hover>svg,.services-section a.service-row:focus-visible>svg{color:#FF8757}
+.services-section a.service-row:focus-visible{outline:2px solid #FF4D00;outline-offset:2px}
 @media(max-width:900px){.services-catalog{grid-template-columns:1fr}.services-catalog-item{min-height:0}.service-detail-grid{grid-template-columns:1fr;gap:50px}}
 
 /* Phase 3 — editorial, academic research and public participation */
